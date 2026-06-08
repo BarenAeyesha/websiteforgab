@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg, #cfe8ff, #eaf5ff);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+            text-align:center;
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:40px;
+            border-radius:25px;
+            max-width:650px;
+            box-shadow:0 15px 35px rgba(80,140,255,0.15);
+        }
+
+        .cat{
+            width:150px;
+            margin-bottom:15px;
+            animation: float 2s ease-in-out infinite;
+        }
+
+        @keyframes float{
+            50%{
+                transform:translateY(-8px);
+            }
+        }
+
+        h1{
+            color:#4a8cff;
+            margin-bottom:15px;
+        }
+
+        p{
+            color:#555;
+            line-height:1.8;
+            margin-bottom:15px;
+        }
+
+        button{
+            background:#6ea8fe;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:30px;
+            cursor:pointer;
+            font-size:16px;
+            margin-top:10px;
+            transition:0.3s;
+        }
+
+        button:hover{
+            background:#4a8cff;
+            transform:scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+
+    <img src="cat.png" alt="Sad Cat" class="cat">
+
+    <h1>Hii Gab! 💙</h1>
+
+    <p>
+        uhm I just wanted to say sorry about kanina. I didn't mean to
+        share the things na nalaman ko kay Junette earlier. It was very
+        immature of me po and I really regret doing that.
+    </p>
+
+    <p>
+        About din po sa cut off, sana po hindi muna. I'm really not ready
+        for that po. It really hurts my heart po talaga and naiiyak ako
+        every time you say na mag-cut off na tayo. Hindi pa po talaga ako
+        ready.
+    </p>
+
+    <p>
+        I was coding this at 2 AM because I honestly didn't know what to do.
+        I've been crying since kanina and naisipan ko nalang gumawa ng website
+        both to practice and to tell you how sorry I am.
+    </p>
+
+    <p>
+        I know saying sorry won't automatically fix everything, but I hope
+        you know that I genuinely mean it. I appreciate you a lot, and I
+        don't want my mistake to be the reason we lose our friendship.
+    </p>
+
+    <button onclick="showMessage()">Click Me</button>
+
+</div>
+
+<script>
+function showMessage(){
+    alert("I'm really sorry po, Gab. I know I messed up and I understand if you're hurt. I just hope we can still fix things. 🥹💙");
+}
+</script>
+
+</body>
+</html>
